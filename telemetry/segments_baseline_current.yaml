@@ -1,0 +1,181 @@
+# AI Candidate Batch 2 — S09 section specialization
+# Generated 2026-04-26 from locked baseline Run 059/060 (145.246s clean).
+# Test only this section variant against telemetry/segments_baseline_current.yaml.
+
+schema_version: v1
+lap_length_m: 3610.0
+segments:
+  - id: s00_straight
+    kind: straight
+    start_m: 0.0
+    end_m: 405.0
+    target_speed_kmh: 105.0
+    entry_pos: 0.0
+    apex_pos: 0.1
+    exit_pos: 0.3
+
+  - id: s01_turn_L_475m
+    kind: corner
+    start_m: 405.0
+    end_m: 545.0
+    target_speed_kmh: 85.0
+    entry_pos: 0.4
+    apex_pos: -0.4
+    exit_pos: 0.2
+
+  - id: s02_straight
+    kind: straight
+    start_m: 545.0
+    end_m: 735.0
+    target_speed_kmh: 103.0
+    entry_pos: 0.2
+    apex_pos: 0.0
+    exit_pos: -0.3
+
+  - id: s03_turn_R_775m
+    kind: corner
+    start_m: 735.0
+    end_m: 815.0
+    target_speed_kmh: 85.0
+    entry_pos: -0.4
+    apex_pos: 0.4
+    exit_pos: -0.2
+
+  - id: s04_straight
+    kind: straight
+    start_m: 815.0
+    end_m: 1000.0
+    target_speed_kmh: 103.0
+    entry_pos: -0.2
+    apex_pos: -0.3
+    exit_pos: -0.4
+
+  - id: s05_turn_R_1040m
+    kind: corner
+    start_m: 1000.0
+    end_m: 1080.0
+    target_speed_kmh: 87.0
+    entry_pos: -0.4
+    apex_pos: 0.4
+    exit_pos: -0.2
+
+  - id: s06_straight
+    kind: straight
+    start_m: 1080.0
+    end_m: 1480.0
+    target_speed_kmh: 110.0
+    entry_pos: -0.2
+    apex_pos: 0.0
+    exit_pos: 0.3
+
+  - id: s07_turn_L_1540m
+    kind: corner
+    start_m: 1480.0
+    end_m: 1600.0
+    target_speed_kmh: 85.0
+    entry_pos: 0.4
+    apex_pos: -0.4
+    exit_pos: 0.2
+
+  - id: s08a_straight
+    kind: straight
+    start_m: 1600.0
+    end_m: 1880.0
+    target_speed_kmh: 98.0
+    entry_pos: 0.2
+    apex_pos: 0.0
+    exit_pos: 0.0
+
+  # Run 044 DNF: offtracks 1945-2001m, peak |trackPos| 1.98.
+  # The previous 1940-1960m kink guard was too short; the car was already
+  # loaded and sliding by the time it entered the guard. Start earlier and
+  # hold longer, but avoid the boring 60 km/h global slow-down.
+  - id: s08b_kink_entry
+    kind: corner
+    start_m: 1880.0
+    end_m: 2020.0
+    target_speed_kmh: 82.0
+    entry_pos: 0.05
+    apex_pos: 0.0
+    exit_pos: 0.05
+
+  - id: s08c_exit_straight
+    kind: straight
+    start_m: 2020.0
+    end_m: 2290.0
+    target_speed_kmh: 116.0
+    entry_pos: 0.0
+    apex_pos: -0.15
+    exit_pos: -0.25
+
+  - id: s09_lead_in
+    kind: straight
+    start_m: 2290.0
+    end_m: 2320.0
+    target_speed_kmh: 48.0
+    entry_pos: -0.6
+    apex_pos: -0.4
+    exit_pos: -0.2
+
+  - id: s09_turn_R_2605m
+    kind: corner
+    start_m: 2320.0
+    end_m: 2540.0
+    target_speed_kmh: 52.0
+    entry_pos: -0.45
+    apex_pos: 0.32
+    exit_pos: -0.10
+
+  - id: s10_straight
+    kind: straight
+    start_m: 2540.0
+    end_m: 2945.0
+    target_speed_kmh: 116.0
+    entry_pos: -0.2
+    apex_pos: -0.25
+    exit_pos: -0.35
+
+  - id: s11_turn_R_2985m
+    kind: corner
+    start_m: 2945.0
+    end_m: 3025.0
+    target_speed_kmh: 87.0
+    entry_pos: -0.4
+    apex_pos: 0.4
+    exit_pos: -0.2
+
+  - id: s12_straight
+    kind: straight
+    start_m: 3025.0
+    end_m: 3180.0
+    target_speed_kmh: 82.0
+    entry_pos: -0.2
+    apex_pos: 0.1
+    exit_pos: 0.5
+
+  - id: s13_turn_L_3272m
+    kind: corner
+    start_m: 3180.0
+    end_m: 3300.0
+    target_speed_kmh: 54.0
+    entry_pos: 0.52
+    apex_pos: -0.34
+    exit_pos: 0.24
+
+  - id: s14_straight
+    kind: straight
+    start_m: 3300.0
+    end_m: 3605.0
+    target_speed_kmh: 104.0
+    entry_pos: 0.3
+    apex_pos: 0.15
+    exit_pos: 0.0
+
+  - id: s15_turn_L_3607m
+    kind: corner
+    start_m: 3605.0
+    end_m: 3610.0
+    target_speed_kmh: 78.0
+    entry_pos: 0.0
+    apex_pos: 0.0
+    exit_pos: 0.0
