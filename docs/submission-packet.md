@@ -58,9 +58,9 @@ Single source of truth for the final submission fields. Copy each `VALUE` line d
 - **Design:** FINN-ISH LINE livery — deep royal blue, gold accents, IBM AI branding, university identifier
 
 ### 13) SkillsBuild certificate
-- **Badge image (S3):** https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/skillsbuild-badge.png
+- **Primary badge image (S3):** https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/skillsbuild-badge-screenshot.png
+- **Alt reference card (S3, generated with QR):** https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/skillsbuild-badge.png
 - **Live IBM verification:** https://skills.yourlearning.ibm.com/certificate/share/34b188b7f0ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICIzNTg1NTA5UkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1ODkxNCIKfQ21b3a5fd18-10
-- **Contents of badge card:** learner (Louis Rodriguez), course ID (ALM-COURSE_4058914), CNUM (3585509REG), scannable QR that resolves to the IBM verification URL.
 
 ### 14) LinkedIn social post (supplementary evidence)
 - **URL:** https://www.linkedin.com/posts/cloud-louis_ibmskillsbuild-ibmairacingleague-python-activity-7454140320872849408-LGgZ

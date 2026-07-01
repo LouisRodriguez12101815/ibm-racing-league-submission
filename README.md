@@ -23,7 +23,8 @@
 | AI Race Blog | ✅ https://medium.com/@louis.rodriguez006/ibm-bobs-reward-shaper-keep-us-moving-2569b0835838 |
 | LinkedIn post | ✅ https://www.linkedin.com/posts/cloud-louis_ibmskillsbuild-ibmairacingleague-python-activity-7454140320872849408-LGgZ |
 | Livery file | ✅ https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/mdc_racing_livery.jpg |
-| SkillsBuild badge (S3) | ✅ https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/skillsbuild-badge.png |
+| SkillsBuild badge screenshot (S3) | ✅ https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/skillsbuild-badge-screenshot.png |
+| SkillsBuild badge card (S3, QR) | https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/skillsbuild-badge.png |
 | SkillsBuild live verification | https://skills.yourlearning.ibm.com/certificate/share/34b188b7f0ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICIzNTg1NTA5UkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1ODkxNCIKfQ21b3a5fd18-10 |
 
 ## Team
