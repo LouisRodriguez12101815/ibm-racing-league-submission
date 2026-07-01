@@ -27,8 +27,9 @@ Single source of truth for the final submission fields. Copy each `VALUE` line d
 - **Video contents:** Full-screen TORCS capture with "Miami Dade College — FINN-ISH LINE" overlay, standing start, single lap on Corkscrew, ends on Race Results screen showing 02:23.96.
 
 ### 8) Team video link (≤3 minutes, accessible)
-- **VALUE (share link):** [FILL IN after recording and uploading to S3]
-- **Sharing:** Same S3 bucket (`mdc-racing-ibm-submission-637675605360`) — upload with `aws s3 cp <file> s3://mdc-racing-ibm-submission-637675605360/team-video.mp4 --content-type video/mp4`
+- **VALUE (share link):** https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/finn-ish-line-team-video.mp4
+- **Duration:** 2:58.17 (under 3:00 form limit)
+- **Sharing:** Public read on AWS S3 (no login required)
 - **Script:** see `docs/team-video-script.md`
 
 ### 9) GitHub repo link (accessible)

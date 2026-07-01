@@ -17,7 +17,7 @@
 | Team contact | louis.rodriguez006@mymdc.net |
 | Lap time | **143.96s (02:23.96)** — standing start, Corkscrew, IBM F1 |
 | Fastest lap video | ✅ https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/mdc-racing-lap-corkscrew-2-23-96.mp4 |
-| Team video (≤3 min) | ⏳ Record from `docs/team-video-script.md` |
+| Team video (≤3 min) | ✅ https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/finn-ish-line-team-video.mp4 |
 | GitHub repo | https://github.com/LouisRodriguez12101815/ibm-racing-league-submission |
 | SkillsBuild slides | ⏳ Create in Google Slides from `docs/skillsbuild-slides.md` |
 | AI Race Blog | ✅ https://medium.com/@louis.rodriguez006/ibm-bobs-reward-shaper-keep-us-moving-2569b0835838 |
@@ -97,9 +97,9 @@ Both invoke the same `src/driver_baseline.py` with the same `telemetry/segments_
 
 1. ✅ **Fastest lap video recorded and uploaded** to S3 (see submission-packet.md, field 7)
 2. ✅ **Livery uploaded** to S3 (see submission-packet.md, field 12)
-3. ⏳ **Record team video** (≤3 min) using `docs/team-video-script.md`
+3. ✅ **Team video recorded and uploaded** to S3 (2:58.17 duration)
 4. ⏳ **Create SkillsBuild Google Slides** using `docs/skillsbuild-slides.md`
 5. ✅ **Blog published on Medium:** "IBM Bob's Reward Shaper: Keep Us Moving"
-6. ⏳ **Upload team video** to the same S3 bucket (`aws s3 cp ... s3://mdc-racing-ibm-submission-637675605360/mdc-racing-team-video.mp4 --content-type video/mp4`)
+6. ✅ **All submission media on S3** (lap video, team video, livery)
 7. ⏳ **Paste all values** from `docs/submission-packet.md` into the form: https://ibm.biz/TORCSForm
 8. ⏳ **Post-submission cleanup:** delete the S3 bucket per `S3-CLEANUP-EMAIL.md`
