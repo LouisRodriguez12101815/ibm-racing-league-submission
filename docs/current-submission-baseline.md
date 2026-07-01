@@ -2,7 +2,13 @@
 
 **Status:** LOCKED (promoted)
 
-## Best clean lap (repeatable)
+## Submitted lap (recorded on video)
+
+- **Submission run 2026-06-30T22-53-33:** `143.96 s` (`02:23.96`), damages 0, 1 lap completed
+- Video: https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/mdc-racing-lap-corkscrew-2-23-96.mp4
+- Telemetry archive: `telemetry/runs/2026-06-30T22-53-33/`
+
+## Prior best clean laps (repeatable)
 
 - **Run 071:** `143.306 s` (`02:23.32`), top speed 121 km/h, damages 0, no off-tracks
 - **Run 072 (repeat):** `143.326 s` (`02:23.32`), top speed 121 km/h, damages 0, no off-tracks
