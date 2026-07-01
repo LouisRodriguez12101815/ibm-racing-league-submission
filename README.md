@@ -20,7 +20,7 @@
 | Team video (≤3 min) | ⏳ Record from `docs/team-video-script.md` |
 | GitHub repo | https://github.com/LouisRodriguez12101815/ibm-racing-league-submission |
 | SkillsBuild slides | ⏳ Create in Google Slides from `docs/skillsbuild-slides.md` |
-| AI Race Blog | ⏳ Publish `blog/blog-final.md` to Medium |
+| AI Race Blog | ✅ https://medium.com/@louis.rodriguez006/ibm-bobs-reward-shaper-keep-us-moving-2569b0835838 |
 | Livery file | ✅ https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/mdc_racing_livery.jpg |
 | SkillsBuild certificate | https://skills.yourlearning.ibm.com/certificate/share/34b188b7f0ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICIzNTg1NTA5UkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1ODkxNCIKfQ21b3a5fd18-10 |
 
@@ -98,7 +98,7 @@ Both invoke the same `src/driver_baseline.py` with the same `telemetry/segments_
 2. ✅ **Livery uploaded** to S3 (see submission-packet.md, field 12)
 3. ⏳ **Record team video** (≤3 min) using `docs/team-video-script.md`
 4. ⏳ **Create SkillsBuild Google Slides** using `docs/skillsbuild-slides.md`
-5. ⏳ **Publish blog** — copy `blog/blog-final.md` to Medium and publish
+5. ✅ **Blog published on Medium:** "IBM Bob's Reward Shaper: Keep Us Moving"
 6. ⏳ **Upload team video** to the same S3 bucket (`aws s3 cp ... s3://mdc-racing-ibm-submission-637675605360/mdc-racing-team-video.mp4 --content-type video/mp4`)
 7. ⏳ **Paste all values** from `docs/submission-packet.md` into the form: https://ibm.biz/TORCSForm
 8. ⏳ **Post-submission cleanup:** delete the S3 bucket per `S3-CLEANUP-EMAIL.md`

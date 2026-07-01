@@ -41,7 +41,8 @@ Single source of truth for the final submission fields. Copy each `VALUE` line d
 - **Slides content:** see `docs/skillsbuild-slides.md`
 
 ### 11) AI Race Blog link (public)
-- **VALUE (URL):** [FILL IN after publishing to Medium]
+- **VALUE (URL):** https://medium.com/@louis.rodriguez006/ibm-bobs-reward-shaper-keep-us-moving-2569b0835838?source=friends_link&sk=c46e6ebd208c87aed686ec0854e3bd01
+- **Title:** "IBM Bob's Reward Shaper: Keep Us Moving"
 - **Platform:** Medium
 - **Source:** `blog/blog-final.md`
 - **Blog should embed/link:**
