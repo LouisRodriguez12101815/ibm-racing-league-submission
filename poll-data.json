@@ -1,0 +1,72 @@
+{
+  "names": [
+    {
+      "id": "seed-1",
+      "text": "The Timmy Toretto-s",
+      "addedAt": "2026-04-19T02:30:00.000Z"
+    },
+    {
+      "id": "seed-2",
+      "text": "localHost305",
+      "addedAt": "2026-04-19T02:30:00.000Z"
+    },
+    {
+      "id": "seed-3",
+      "text": "RacingTo404",
+      "addedAt": "2026-04-19T02:30:00.000Z"
+    },
+    {
+      "id": "seed-4",
+      "text": "Finn-ishLine",
+      "addedAt": "2026-04-19T02:30:00.000Z"
+    },
+    {
+      "id": "seed-5",
+      "text": "SharkyMcSharkerson",
+      "addedAt": "2026-04-19T02:30:00.000Z"
+    },
+    {
+      "id": "seed-6",
+      "text": "Driving Like I'm From Miami",
+      "addedAt": "2026-04-19T02:30:00.000Z"
+    }
+  ],
+  "votes": [
+    {
+      "id": "b285fe2f-2dd4-4df8-af55-d484974152dc",
+      "ranking": [
+        "seed-1",
+        "seed-2",
+        "seed-3",
+        "seed-6",
+        "seed-4",
+        "seed-5"
+      ],
+      "submittedAt": "2026-04-19T02:45:14.665Z"
+    },
+    {
+      "id": "83511d72-5b38-45e2-a8a2-c09f64c00497",
+      "ranking": [
+        "seed-4",
+        "seed-3",
+        "seed-2",
+        "seed-1",
+        "seed-5",
+        "seed-6"
+      ],
+      "submittedAt": "2026-04-22T16:39:10.166Z"
+    },
+    {
+      "id": "bd310201-7b3f-403d-bd2e-bb2c0a264304",
+      "ranking": [
+        "seed-2",
+        "seed-4",
+        "seed-3",
+        "seed-6",
+        "seed-1",
+        "seed-5"
+      ],
+      "submittedAt": "2026-04-22T18:49:28.306Z"
+    }
+  ]
+}
