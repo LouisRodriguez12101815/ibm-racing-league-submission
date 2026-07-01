@@ -10,7 +10,7 @@ Suggested send-to-self subject line and body:
 
 Hey Louis,
 
-You uploaded the MDC Racing IBM AI Racing League submission assets to a public S3 bucket in AWS account `637675605360` (us-east-1). Once judging is done, delete the bucket to stop storage + egress charges.
+You uploaded the FINN-ISH LINE IBM AI Racing League submission assets to a public S3 bucket in AWS account `637675605360` (us-east-1). Once judging is done, delete the bucket to stop storage + egress charges.
 
 Assets currently in the bucket:
 - Lap video: `mdc-racing-lap-corkscrew-2-23-96.mp4` (~170 MB)

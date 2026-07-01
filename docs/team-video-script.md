@@ -19,7 +19,7 @@ Recording tools: **OBS** to capture face-cam + screen; **Clipchamp** (preinstall
 
 ## [0:00–0:12] — SHOW `01-title.png`
 **SAY:**
-> "Hi, we're MDC Racing from Miami Dade College. This is our submission for the IBM AI Racing League 2026, from our AI Models course."
+> "Hi, we're FINN-ISH LINE from Miami Dade College. This is our submission for the IBM AI Racing League 2026, from our AI Models course."
 
 ---
 
@@ -55,7 +55,7 @@ Recording tools: **OBS** to capture face-cam + screen; **Clipchamp** (preinstall
 
 ## [2:15–2:38] — SHOW `07-skillsbuild.png`
 **SAY:**
-> "Every MDC Racing team member completed IBM SkillsBuild coursework. What SkillsBuild gave us was shared vocabulary for the tradeoffs — sample efficiency versus generalization, deterministic control versus learned control, small local models versus cloud APIs. That framing is why we shipped a rule-based driver first instead of chasing a reinforcement learning solution that wouldn't have converged in the timebox."
+> "Every FINN-ISH LINE team member completed IBM SkillsBuild coursework. What SkillsBuild gave us was shared vocabulary for the tradeoffs — sample efficiency versus generalization, deterministic control versus learned control, small local models versus cloud APIs. That framing is why we shipped a rule-based driver first instead of chasing a reinforcement learning solution that wouldn't have converged in the timebox."
 
 ---
 
@@ -73,7 +73,7 @@ Recording tools: **OBS** to capture face-cam + screen; **Clipchamp** (preinstall
 
 ## [2:56–3:00] — SHOW `10-close.png`
 **SAY:**
-> "We're MDC Racing. See you on the leaderboard."
+> "We're FINN-ISH LINE. See you on the leaderboard."
 
 ---
 

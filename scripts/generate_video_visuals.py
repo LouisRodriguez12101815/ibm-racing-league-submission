@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
-"""Generate MDC Racing team-video PNG visuals.
+"""Generate FINN-ISH LINE team-video PNG visuals.
 
 Produces ten 1920x1080 PNG title cards under docs/video-visuals/ with a
-consistent brand style (deep royal blue background, gold accents, white text)
-matching the MDC Racing livery.
+consistent brand style (deep royal blue background, gold accents, white text).
 
 Usage:
     python scripts/generate_video_visuals.py
@@ -65,7 +64,7 @@ def make_base() -> Image.Image:
     draw.rectangle([(0, H - 12), (W, H)], fill=GOLD)
     # tag in corner
     tag = load_font(28, bold=True)
-    draw.text((40, 26), "MDC RACING · IBM AI RACING LEAGUE 2026", font=tag, fill=SOFT_WHITE)
+    draw.text((40, 26), "FINN-ISH LINE · IBM AI RACING LEAGUE 2026", font=tag, fill=SOFT_WHITE)
     return img
 
 
@@ -89,13 +88,13 @@ def save(img: Image.Image, name: str) -> None:
 # ------------------------------------------------------------------ Slide 01
 def slide_01_title() -> None:
     img = make_base()
-    title_font = load_font(140, bold=True)
+    title_font = load_font(160, bold=True)
     sub_font = load_font(56, bold=False)
     small_font = load_font(40, bold=False)
-    draw_centered(img, "MDC RACING", 340, title_font, fill=GOLD)
-    draw_centered(img, "Miami Dade College · AI Models", 520, sub_font)
-    draw_centered(img, "IBM AI Racing League 2026", 610, sub_font, fill=SOFT_WHITE)
-    draw_centered(img, "Corkscrew · IBM F1 · Standing Start", 730, small_font, fill=GREY)
+    draw_centered(img, "FINN-ISH LINE", 320, title_font, fill=GOLD)
+    draw_centered(img, "Miami Dade College · AI Models", 540, sub_font)
+    draw_centered(img, "IBM AI Racing League 2026", 630, sub_font, fill=SOFT_WHITE)
+    draw_centered(img, "Corkscrew · IBM F1 · Standing Start", 750, small_font, fill=GREY)
     save(img, "01-title.png")
 
 
@@ -103,14 +102,16 @@ def slide_01_title() -> None:
 def slide_02_team() -> None:
     img = make_base()
     heading = load_font(96, bold=True)
-    body = load_font(64, bold=False)
+    sub = load_font(52, bold=False)
+    body = load_font(66, bold=True)
     role = load_font(38, bold=False)
-    draw_centered(img, "The Team", 200, heading, fill=GOLD)
-    y = 400
+    draw_centered(img, "Team FINN-ISH LINE", 170, heading, fill=GOLD)
+    draw_centered(img, "Miami Dade College · AI Models", 290, sub, fill=SOFT_WHITE)
+    y = 460
     for name in ("Louis Rodriguez", "Daniel Pino", "Javier Perez-Hickman"):
         draw_centered(img, name, y, body)
-        y += 100
-    draw_centered(img, "Miami Dade College · AI Models", 820, role, fill=GREY)
+        y += 110
+    draw_centered(img, "All members: driver, telemetry, testing, docs", 860, role, fill=GREY)
     save(img, "02-team.png")
 
 
@@ -212,7 +213,7 @@ def slide_08_repo() -> None:
     body = load_font(44, bold=False)
     url = load_font(48, bold=True)
     draw_centered(img, "Our Work Is Public", 200, heading, fill=GOLD)
-    draw_centered(img, "GitHub · MDC Racing submission repo", 380, body, fill=SOFT_WHITE)
+    draw_centered(img, "GitHub · FINN-ISH LINE submission repo", 380, body, fill=SOFT_WHITE)
     draw_centered(img, "github.com/LouisRodriguez12101815/", 560, url)
     draw_centered(img, "ibm-racing-league-submission", 640, url)
     draw_centered(img, "Reproducible: clone, install TORCS, run one script.", 840, body, fill=GREY)
@@ -222,14 +223,21 @@ def slide_08_repo() -> None:
 # ------------------------------------------------------------------ Slide 09
 def slide_09_blog() -> None:
     img = make_base()
-    heading = load_font(90, bold=True)
-    body = load_font(42, bold=False)
-    url = load_font(40, bold=True)
-    draw_centered(img, "Full Write-Up on Medium", 200, heading, fill=GOLD)
-    draw_centered(img, "\"IBM Bob's Reward Shaper: Keep Us Moving\"", 380, body, fill=SOFT_WHITE)
-    draw_centered(img, "medium.com/@louis.rodriguez006/", 560, url)
-    draw_centered(img, "ibm-bobs-reward-shaper-keep-us-moving", 640, url)
-    draw_centered(img, "Architecture · Granite workflow · Lessons learned", 840, body, fill=GREY)
+    heading = load_font(84, bold=True)
+    body = load_font(38, bold=False)
+    url = load_font(36, bold=True)
+    label = load_font(34, bold=True)
+    draw_centered(img, "Read the Full Write-Up", 160, heading, fill=GOLD)
+    # Medium block
+    draw_centered(img, "MEDIUM", 340, label, fill=GOLD)
+    draw_centered(img, "\"IBM Bob's Reward Shaper: Keep Us Moving\"", 400, body, fill=SOFT_WHITE)
+    draw_centered(img, "medium.com/@louis.rodriguez006/", 470, url)
+    draw_centered(img, "ibm-bobs-reward-shaper-keep-us-moving", 520, url)
+    # LinkedIn block
+    draw_centered(img, "LINKEDIN", 680, label, fill=GOLD)
+    draw_centered(img, "linkedin.com/posts/cloud-louis_", 740, url)
+    draw_centered(img, "ibmskillsbuild-ibmairacingleague-python", 790, url)
+    draw_centered(img, "Architecture · Granite workflow · Lessons learned", 900, body, fill=GREY)
     save(img, "09-blog.png")
 
 
@@ -241,7 +249,7 @@ def slide_10_close() -> None:
     small = load_font(40, bold=False)
     draw_centered(img, "See You on the", 340, heading, fill=WHITE)
     draw_centered(img, "Leaderboard.", 500, heading, fill=GOLD)
-    draw_centered(img, "MDC Racing · Miami Dade College", 780, body)
+    draw_centered(img, "FINN-ISH LINE · Miami Dade College", 780, body)
     draw_centered(img, "Louis Rodriguez · Daniel Pino · Javier Perez-Hickman", 880, small, fill=SOFT_WHITE)
     save(img, "10-close.png")
 

@@ -1,12 +1,12 @@
-# From 3:32 to 2:23.96 — How MDC Racing Built an IBM AI Racing League Driver
-*Team MDC Racing — Miami Dade College · IBM AI Racing League 2026*
+# From 3:32 to 2:23.96 — How FINN-ISH LINE Built an IBM AI Racing League Driver
+*Team FINN-ISH LINE — Miami Dade College · IBM AI Racing League 2026*
 When we started this project, our TORCS car crawled around Corkscrew in 3 minutes and 32 seconds. On submission day, it runs a clean, zero-damage lap in **2 minutes 23.96 seconds** — reproducible from the same command, from the same repo, on any machine with TORCS installed.
 This is how we got there, what IBM Granite and IBM SkillsBuild had to do with it, and what we're actually submitting.
 ---
 
 ## Who we are
 
-We are Louis Rodriguez, Daniel Pino, and Javier Perez-Hickman — the MDC Racing team from Miami Dade College's **AI Models** course. None of us started this project as racing engineers. We learned the physics on the fly, one off-track excursion at a time, and we think that learning arc is exactly what the IBM AI Racing League is designed to produce.
+We are Louis Rodriguez, Daniel Pino, and Javier Perez-Hickman — the FINN-ISH LINE team from Miami Dade College's **AI Models** course. None of us started this project as racing engineers. We learned the physics on the fly, one off-track excursion at a time, and we think that learning arc is exactly what the IBM AI Racing League is designed to produce.
 
 Our submission repo is public: [github.com/LouisRodriguez12101815/ibm-racing-league-submission](https://github.com/LouisRodriguez12101815/ibm-racing-league-submission)
 
@@ -67,7 +67,7 @@ The pattern — dense telemetry in, structured strategy out — is the right use
 
 ## How IBM SkillsBuild fits
 
-The SkillsBuild badge track gave every member of MDC Racing shared vocabulary for the tradeoffs we were about to make.
+The SkillsBuild badge track gave every member of FINN-ISH LINE shared vocabulary for the tradeoffs we were about to make.
 
 The single most important thing SkillsBuild did for our project was convince us to ship a **deterministic controller first**. There is a persistent temptation in RL-adjacent problems to reach for reinforcement learning immediately. SkillsBuild content on sample efficiency, generalization, and the practicality of controllable local models framed the tradeoff clearly: for a single-lap, single-track, single-car problem with a physics simulator we can inspect, rule-based control is faster to iterate, easier to reason about, and produces evidence we can hand to a judge.
 
@@ -130,6 +130,6 @@ Three things:
 
 Thanks to IBM for building the Racing League and to our professors at Miami Dade College. Everything you see here is reproducible from the public repo — take it apart, break it, make it faster.
 
-**MDC Racing** — Louis Rodriguez, Daniel Pino, Javier Perez-Hickman.
+**FINN-ISH LINE** — Louis Rodriguez, Daniel Pino, Javier Perez-Hickman.
 
 *Follow the code: [github.com/LouisRodriguez12101815/ibm-racing-league-submission](https://github.com/LouisRodriguez12101815/ibm-racing-league-submission).*

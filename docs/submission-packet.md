@@ -11,7 +11,7 @@ Single source of truth for the final submission fields. Copy each `VALUE` line d
 - **VALUE:** AI Models
 
 ### 4) Team name
-- **VALUE:** MDC Racing
+- **VALUE:** FINN-ISH LINE
 
 ### 5) Team contact email
 - **VALUE:** louis.rodriguez006@mymdc.net
@@ -24,7 +24,7 @@ Single source of truth for the final submission fields. Copy each `VALUE` line d
 ### 7) Fastest lap video link (accessible)
 - **VALUE (share link):** https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/mdc-racing-lap-corkscrew-2-23-96.mp4
 - **Sharing:** Public read on AWS S3 (no login required, direct MP4 stream)
-- **Video contents:** Full-screen TORCS capture with "Miami Dade College — MDC Racing" overlay, standing start, single lap on Corkscrew, ends on Race Results screen showing 02:23.96.
+- **Video contents:** Full-screen TORCS capture with "Miami Dade College — FINN-ISH LINE" overlay, standing start, single lap on Corkscrew, ends on Race Results screen showing 02:23.96.
 
 ### 8) Team video link (≤3 minutes, accessible)
 - **VALUE (share link):** [FILL IN after recording and uploading to S3]
@@ -54,10 +54,16 @@ Single source of truth for the final submission fields. Copy each `VALUE` line d
 - **VALUE (share link):** https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/mdc_racing_livery.jpg
 - **Local file:** `assets/mdc_racing_livery.jpg`
 - **Sharing:** Public read on AWS S3
-- **Design:** MDC Racing livery — deep royal blue, gold accents, IBM AI branding, university identifier
+- **Design:** FINN-ISH LINE livery — deep royal blue, gold accents, IBM AI branding, university identifier
 
 ### 13) SkillsBuild certificate (bonus reference)
 - **URL:** https://skills.yourlearning.ibm.com/certificate/share/34b188b7f0ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICIzNTg1NTA5UkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1ODkxNCIKfQ21b3a5fd18-10
+
+### 14) LinkedIn social post (supplementary evidence)
+- **URL:** https://www.linkedin.com/posts/cloud-louis_ibmskillsbuild-ibmairacingleague-python-activity-7454140320872849408-LGgZ
+- **Author:** Louis Rodriguez
+- **Tags:** #ibmskillsbuild #ibmairacingleague #python
+- **Use for:** paste into any submission-form field asking for social/community proof, or include as an addendum to the blog link if the form allows multiple URLs.
 
 ---
 

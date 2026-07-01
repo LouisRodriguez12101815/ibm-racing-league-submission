@@ -4,10 +4,10 @@ When done: **File → Share → General access → Anyone with the link → View
 ---
 
 ## Slide 1 — Title
-**Title:** IBM SkillsBuild Badges — MDC Racing
+**Title:** IBM SkillsBuild Badges — FINN-ISH LINE
 **Subtitle:**
 Miami Dade College · AI Models
-Team MDC Racing · IBM AI Racing League 2026
+Team FINN-ISH LINE · IBM AI Racing League 2026
 Louis Rodriguez · Daniel Pino · Javier Perez-Hickman
 
 ---
@@ -15,7 +15,7 @@ Louis Rodriguez · Daniel Pino · Javier Perez-Hickman
 ## Slide 2 — Summary
 **Title:** What we completed
 **Body:**
-- Each MDC Racing team member completed IBM SkillsBuild coursework aligned to the AI Models course.
+- Each FINN-ISH LINE team member completed IBM SkillsBuild coursework aligned to the AI Models course.
 - Focus areas: AI foundations, generative AI, and applied ML tradeoffs relevant to autonomous control.
 - Learning informed our decision to ship a rule-based controller instead of an RL-first architecture in the competition timebox.
 - Verification links and screenshots on the following slides.

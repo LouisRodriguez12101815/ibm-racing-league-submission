@@ -1,6 +1,6 @@
 # IBM AI Racing League — Submission Package
 
-**Team:** MDC Racing
+**Team:** FINN-ISH LINE
 **University:** Miami Dade College
 **Course:** AI Models
 **Deadline:** 2026-07-01
@@ -13,7 +13,7 @@
 | Country | United States |
 | University | Miami Dade College |
 | Course | AI Models |
-| Team name | MDC Racing |
+| Team name | FINN-ISH LINE |
 | Team contact | louis.rodriguez006@mymdc.net |
 | Lap time | **143.96s (02:23.96)** — standing start, Corkscrew, IBM F1 |
 | Fastest lap video | ✅ https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/mdc-racing-lap-corkscrew-2-23-96.mp4 |
@@ -21,6 +21,7 @@
 | GitHub repo | https://github.com/LouisRodriguez12101815/ibm-racing-league-submission |
 | SkillsBuild slides | ⏳ Create in Google Slides from `docs/skillsbuild-slides.md` |
 | AI Race Blog | ✅ https://medium.com/@louis.rodriguez006/ibm-bobs-reward-shaper-keep-us-moving-2569b0835838 |
+| LinkedIn post | ✅ https://www.linkedin.com/posts/cloud-louis_ibmskillsbuild-ibmairacingleague-python-activity-7454140320872849408-LGgZ |
 | Livery file | ✅ https://mdc-racing-ibm-submission-637675605360.s3.amazonaws.com/mdc_racing_livery.jpg |
 | SkillsBuild certificate | https://skills.yourlearning.ibm.com/certificate/share/34b188b7f0ewogICJvYmplY3RUeXBlIiA6ICJBQ1RJVklUWSIsCiAgImxlYXJuZXJDTlVNIiA6ICIzNTg1NTA5UkVHIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfNDA1ODkxNCIKfQ21b3a5fd18-10 |
 
@@ -71,7 +72,7 @@ All members contributed as team members to design, telemetry, testing, and docum
 │   └── blog-final.md                      ← ✅ Medium-ready polished blog post
 │
 ├── assets/
-│   └── mdc_racing_livery.jpg              ← MDC Racing F1 livery (royal blue/gold)
+│   └── mdc_racing_livery.jpg              ← FINN-ISH LINE F1 livery (royal blue/gold)
 │
 └── S3-CLEANUP-EMAIL.md                    ← Self-reminder to delete AWS S3 bucket post-judging
 ```
